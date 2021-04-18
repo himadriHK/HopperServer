@@ -6,4 +6,4 @@ var server = net.createServer(function (socket) {
 	socket.on("data", function (data) { console.log(data) });
 });
 
-server.listen(1337);
+server.listen(80);
